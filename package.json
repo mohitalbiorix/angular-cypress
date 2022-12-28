@@ -9,7 +9,10 @@
     "test": "ng test",
     "test:prod": "ng test --browsers=ChromeHeadless --watch=false --code-coverage",
     "cypress:prod": "npx cypress run --headless",
-    "cypress": "npx cypress run --headless"
+    "cypress": "npx cypress run --headless",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record --key"
   },
   "private": true,
   "dependencies": {
