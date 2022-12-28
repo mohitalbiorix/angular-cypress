@@ -30,5 +30,5 @@ jobs:
     - run: npm run start:ci &
     - run: npm run build --if-present
     - run: npm install -g wait-on
-    - run: ng serve & wait-on http://localhost:4200
+    - run: npm run start & wait-on http://localhost:4200
     - run: npm run cypress:prod
