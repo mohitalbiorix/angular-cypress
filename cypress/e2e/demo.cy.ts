@@ -12,4 +12,8 @@ describe('should be redirect', ()=>{
     cy.get('.btn').click() 
     cy.url().should('include', '/about')
   })
+
+  it('Does not do much!', () => {
+    expect(true).to.equal(false)
+  })
 })
