@@ -12,7 +12,8 @@
     "cypress": "npx cypress run --headless",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:record": "cypress run --record --key"
+    "cypress:record": "cypress run --record --key",
+    "open": "opener http://localhost:4200"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
     "@angular/router": "^15.0.0",
     "bootstrap": "^5.2.3",
     "karma-coverage-istanbul-reporter": "^3.0.3",
+    "opener": "^1.5.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -43,6 +45,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~4.8.2"
+    "typescript": "~4.8.2",
+    "webpack-dev-server": "^4.11.1"
   }
 }
