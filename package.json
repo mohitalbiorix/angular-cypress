@@ -13,7 +13,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:record": "cypress run --record --key",
-    "start:prod": "webpack-dev-server"
+    "open": "opener http://localhost:4200"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +27,7 @@
     "@angular/router": "^15.0.0",
     "bootstrap": "^5.2.3",
     "karma-coverage-istanbul-reporter": "^3.0.3",
+    "opener": "^1.5.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

@@ -30,5 +30,5 @@ jobs:
     - run: npm run start:ci &
     - run: npm run build --if-present
     - run: npm install -g wait-on
-    - run: npm run start:prod
+    - run: npm run start & wait-on npm run open
     - run: npm run cypress:prod
