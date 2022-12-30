@@ -4,7 +4,6 @@ describe('First page',()=>{
     })
   })
   
-
 describe('should be redirect', ()=>{
   it('should be redirect', ()=>{
     cy.visit("http://localhost:4200/home")

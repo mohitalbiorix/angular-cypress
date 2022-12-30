@@ -15,8 +15,8 @@ describe('The Home page', () => {
 })
 
 
-describe('My First Case', ()=>{
-  it('should not match', ()=>{
+describe('My First Case', () => {
+  it('should not match', () => {
     expect(true).to.equal(true)
   })
 })
