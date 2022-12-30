@@ -31,4 +31,4 @@ jobs:
     - run: npm run build --if-present
     - run: npm install -g wait-on
     - run: npm run start & wait-on http://localhost:4200
-    - run: npm run cypress:prod
+    - run: npm run cypress
